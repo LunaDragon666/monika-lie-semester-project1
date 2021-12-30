@@ -1,0 +1,215 @@
+.volunteer_img,
+.support_img,
+.internship_img,
+.volunteer_content,
+.support_content,
+.internship_content {
+  text-align: left;
+  padding: 5%;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+/* FLEXBOXES OVERALL ~ GET INVOLVED SUBPAGE */
+.volunteer_flexbox,
+.support_flexbox,
+.internship_flexbox {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.volunteer_flexbox {
+  background: #ffffff;
+}
+.support_flexbox {
+  background: #91cfff;
+}
+.internship_flexbox {
+  background: #005fff;
+}
+
+/* Flexboxes ~ images */
+.volunteer_img,
+.support_img,
+.internship_img {
+  height: 67vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.volunteer_img {
+  background: url("../images/volunteers.jpg") center bottom no-repeat;
+  background-size: cover;
+}
+.support_img {
+  background: url("../images/support.jpg") center bottom no-repeat;
+  background-size: cover;
+}
+.internship_img {
+  background: url("../images/scientists.jpg") center bottom no-repeat;
+  background-size: cover;
+}
+
+/* Flexboxes ~ content page */
+.volunteer_content,
+.support_content {
+  color: #001cd4;
+}
+.internship_content {
+  color: #ffffff;
+}
+.intro-paragraph {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+}
+p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+}
+.paragraph-decor,
+.paragraph-decor-white {
+  width: 5%;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.paragraph-decor {
+  border: 4px solid #001cd4;
+}
+.paragraph-decor-white {
+  border: 4px solid #ffffff;
+}
+h2 {
+  font-size: 2.6em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-top: -15px;
+}
+p.intro-paragraph {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+/* CTA-buttons */
+.cta-btn,
+.cta-application {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "montserrat", "sans-serif";
+  letter-spacing: 0.15em;
+}
+.cta-btn {
+  background: #001cd4;
+}
+.cta-application {
+  background: #000d5e;
+}
+.cta-btn:hover,
+.cta-application:hover {
+  background: white;
+  color: #001cd5;
+  border: 3.5px solid #001cd4;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/* MEDIA QUERIES ~ GET INVOLVED */
+@media (min-width: 360px) and (max-width: 768px) {
+  .headpage {
+    height: 25vh;
+  }
+  .volunteer_flexbox,
+  .support_flexbox,
+  .internship_flexbox {
+    display: grid;
+  }
+  .volunteer_img,
+  .support_img,
+  .internship_img {
+    height: 40vh;
+  }
+  .volunteer_img,
+  .support_img,
+  .internship_img,
+  .volunteer_content,
+  .support_content,
+  .internship_content {
+    padding: 10%;
+  }
+  h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+  }
+  .paragraph-decor,
+  .paragraph-decor-white {
+    width: 15%;
+  }
+  .intro-paragraph {
+    font-size: 1.4em;
+    line-height: 1.3em;
+  }
+  p {
+    font-size: 1.1em;
+    margin-bottom: 50px;
+  }
+  .cta-btn,
+  .cta-btn:hover,
+  .cta-application,
+  .cta-application:hover {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .headpage {
+    height: 70vh;
+  }
+  .volunteer_flexbox,
+  .support_flexbox,
+  .internship_flexbox {
+    display: grid;
+  }
+  .volunteer_img,
+  .support_img,
+  .internship_img {
+    height: 75vh;
+  }
+  .cta-btn,
+  .cta-application {
+    font-size: 1.4em;
+    width: 25%;
+  }
+  h2 {
+    font-size: 3em;
+    margin-top: 10px;
+  }
+  .intro-paragraph {
+    font-size: 1.5em;
+  }
+  p {
+    margin-bottom: 60px;
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .volunteer_img,
+  .support_img,
+  .internship_img {
+    height: 78vh;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+}
