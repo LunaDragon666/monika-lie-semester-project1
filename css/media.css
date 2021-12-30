@@ -1,0 +1,198 @@
+@media (min-width: 360px) and (max-width: 768px) {
+  .logoimage {
+    width: 250px;
+  }
+  .header .menu-icon {
+    padding: 25px 25px;
+  }
+  .subheading {
+    font-size: 1.7em;
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+  .header_link {
+    position: absolute;
+    font-size: 1.2em;
+    margin: -20px 70px;
+    white-space: nowrap;
+  }
+  .subhead-dec {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  i.fas.fa-images,
+  i.fas.fa-calendar-alt .exhibitpage {
+    margin: 0 10px 0 -10px;
+  }
+  .gallery-page {
+    grid-template-columns: auto;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 0px 30px;
+  }
+  .exhibitpage {
+    margin: 40px 0 0 0;
+  }
+  /* Header */
+  h1 {
+    font-size: 2.1em;
+    margin: 0px 0 10px 0;
+  }
+  .headpage {
+    min-height: 60vh;
+  }
+  .header_text,
+  h1 {
+    text-align: center;
+  }
+  .header_text {
+    font-size: 1.5em;
+    margin: 0px 0px 70px 0px;
+  }
+  .main-cta {
+    margin: 0 80px;
+  }
+  /* Blogpage section */
+  .grid > article {
+    width: 100%;
+    margin: -10px 0 30px 0;
+  }
+  .event-date {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  .blogtext {
+    font-size: 1.1em;
+  }
+  .read-btn,
+  .read-btn:hover {
+    font-size: 1.4em;
+    width: 100%;
+  }
+  /* Exhibition gallery */
+  .content .content-overlay {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .content-details h2 {
+    line-height: 0.5em;
+  }
+  .content-image {
+    width: 100%;
+  }
+  h3.content-title {
+    font-size: 2em;
+    color: white;
+    letter-spacing: 0.1em;
+    margin: 10px -25px;
+  }
+  p.content-text {
+    font-size: 1.2em;
+  }
+  /* Footer */
+  footer {
+    height: 275px;
+  }
+}
+
+/* FROM MOBILE PHONES TO TABLETS */
+@media (min-width: 769px) and (max-width: 1280px) {
+  .subheading {
+    margin: 20px -25px;
+  }
+  .header_link {
+    margin: -60px 30px 0 0;
+  }
+  .subhead-dec {
+    width: 94%;
+  }
+  i.fas.fa-images,
+  i.fas.fa-calendar-alt {
+    margin-right: 30px;
+  }
+  .blogpage,
+  .exhibitpage {
+    margin: 0 0 50px 0;
+  }
+  /* Header */
+  .header {
+    margin: 0;
+  }
+  .headpage {
+    min-height: 100vh;
+  }
+  .header .menu-icon {
+    padding: 35px 35px;
+  }
+  /* Blogpage section */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    margin: -30px 20px;
+  }
+  .grid > article {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  h3.blog_titles {
+    font-size: 2.5em;
+    font-weight: 800;
+  }
+  .blogtext {
+    font-size: 1.1em;
+  }
+  .read-btn,
+  .read-btn:hover {
+    font-size: 1.3em;
+    width: 90%;
+  }
+  /* Exhibition gallery */
+  .gallery-page,
+  .footer_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-page {
+    margin: 0;
+  }
+  .content {
+    margin: -30px 0 60px 0;
+  }
+  .content .content-overlay {
+    left: 20px;
+    right: 20px;
+  }
+  .content-details h2 {
+    font-size: 2em;
+  }
+  .content-details p {
+    font-size: 1.4em;
+  }
+  h3.content-title {
+    font-size: 2em;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin: 10px -25px;
+  }
+}
+
+/* FROM LAPTOPS TO DESKTOPS */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .headpage {
+    min-height: 60vh;
+  }
+  .content .content-overlay {
+    left: 25px;
+    right: 25px;
+  }
+  .read-btn {
+    width: 70%;
+  }
+  footer {
+    height: 260px;
+  }
+}
